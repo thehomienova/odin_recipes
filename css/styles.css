@@ -6,3 +6,17 @@ body {
 a {
     color: lightskyblue;
 }
+
+h1, h2 {
+    font-family: fantasy, 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1 {
+    color: lightgreen;
+    font-size: 50px;
+}
+h2 {
+    color: pink;
+}
+
