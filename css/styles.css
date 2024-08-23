@@ -1,10 +1,18 @@
+*, 
+*::after, 
+*::before	{
+	box-sizing: border-box;
+}
+
 body {
-    background-color: black;
-    color: white;
+    background-image: url(/Users/nova7/Desktop/odin-recipes/images/guitarBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 a {
-    color: lightskyblue;
+    color: darkgreen;
 }
 
 h1, h2 {
@@ -12,11 +20,33 @@ h1, h2 {
     text-align: center;
 }
 
-h1 {
+.title {
     color: lightgreen;
     font-size: 50px;
 }
-h2 {
+.description, .ingredients {
     color: pink;
 }
+
+.main-title {
+    color: lightgreen;
+    background-color: black;
+    font-size: 72px;
+    border: 12px double darkred;
+}
+
+.recipe-list {
+    font-size: 32px;
+    height: 75px;
+    width: 250px;
+    padding: 12px;
+    margin: 12px;
+    background-color: black;
+    border: 7px outset darkred;
+}
+
+ul {
+    list-style-type: square;
+}
+
 
